@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button, input { 
+    border-radius: 8px;
+    outline: none;
+}
+
+button, input:active { 
+    outline: none;
+}
+
+a {
+    color: #342AE3;
+    text-decoration: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header-logo { 
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 29px;
+}
+
+
+.form-block__fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 380px;
+}
+
+.form-block__fields__description {
+    margin-top: 20px;
+}
+
+.form-block__fields__checkbox__description {
+    margin-left: 5px;
+}
+
+.form-block__fields__field {
+    padding: 12px;
+    margin-top: 8px;
+}
+
+
+.img-block__image { 
+    margin-left: auto;
+}
+
+.form-block__fields__submit-btn {
+    padding: 12px 168px;
+    color: white;
+    background-color: #342AE3;
+    border: none;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+} 
+
+.form-block__heading { 
+    font-family: 'Gordita';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 120%;
+    color: #2B2B2B;
+}
+
+.form-block__description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(43, 43, 43, 0.5);
+}
+
+.form-block__fields__vk-btn { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D7D7D7;
+    background-color: transparent;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 22px;
+    color: #2B2B2B;
+    padding: 12px 0;
+    box-shadow: 0px 1px 2px 0px #00000014;
+}
+
+.registration { 
+    text-align: center;
+    margin-top: 5px;
+}

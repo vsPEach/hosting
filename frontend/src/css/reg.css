@@ -1,0 +1,29 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+label { 
+    display: block;
+}
+
+.wrapper { 
+    display: flex;
+    align-items: center;
+}
+
+.header-logo { 
+    position: absolute;
+}
+
+.form { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form__radio { 
+    display: flex;
+    align-items: center;
+}
