@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+import org.jetbrains.annotations.NotNull;
 
 @Getter
 @Setter
@@ -14,16 +15,18 @@ public class User {
     private String fullname;
 
     @JsonProperty("email")
+    @NotNull
     private String email;
 
     @JsonProperty("password")
+    @NotNull
     private String password;
 
     @JsonProperty("date")
     private String date;
 
-    @JsonProperty("group")
-    private String group;
+    @JsonProperty("team")
+    private String team;
 
     @JsonProperty("subject")
     private String subject;

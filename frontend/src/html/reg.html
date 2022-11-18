@@ -10,6 +10,8 @@
 <body>
   <img src="../img/❖.png" alt="" class="header-logo">
   <div class="wrapper">
+    <h2 class="heading">Регистрация</h2>
+    <p class="heading__description">Пожалуйста, заполните данные.</p>
     <form class="form">
       <div class="form__radio">
         <input class="role" type="radio" value="student" name="role" id="form__student" checked >
@@ -20,14 +22,23 @@
         <label for="form__teacher">Teacher</label>
       </div>
       <div class="form__team">
-        <label for="team">Ваша группа</label>
-        <input class="" type="text" name="team" id="team">
+        <label for="team" class="form__radio__label">Ваша группа</label>
+        <input class="" type="text" name="team" id="team"/>
       </div>
       <div class="form__fullname">
-        <label for="fullname">Фамилия Имя Отчество</label>
-        <input class="" type="text" name="fullname" id="fullname">
+        <label class="form__radio__label" for="fullname">Фамилия Имя Отчество</label>
+        <input class="" type="text" name="fullname" id="fullname" />
       </div>
-    </form>
+      <div class="form__email">
+        <label class="form__radio__label" for="fullname">Email</label>
+        <input class="" type="text" name="email" id="email"/>
+      </div>
+      <div class="form__password">
+        <label class="form__radio__label" for="fullname">Password</label>
+        <input class="" type="text" name="password" id="password" />
+      </div>
+      <button class="send_btn" onclick="CreateUser()">send</button>
+    </form> 
     <img src="../img/image.png" alt="" class="img-block__image">
   </div>
   <script src="../js/reg.js"></script>
